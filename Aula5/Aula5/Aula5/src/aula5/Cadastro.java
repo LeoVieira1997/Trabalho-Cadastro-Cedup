@@ -1,46 +1,15 @@
 package aula5;
 
-import javax.swing.DefaultListModel;
-import javax.swing.JOptionPane;
+import javax.swing.*;
 import javax.swing.GroupLayout.Alignment;
 import javax.swing.LayoutStyle.ComponentPlacement;
-import javax.swing.GroupLayout;
-import java.awt.event.KeyAdapter;
-import java.awt.event.KeyEvent;
-import javax.swing.border.TitledBorder;
-import javax.swing.UIManager;
-import java.awt.Color;
-import java.awt.event.MouseAdapter;
-import java.awt.event.MouseEvent;
-import java.sql.Connection;
-import java.sql.ResultSet;
-import java.sql.Statement;
-import java.text.DateFormat;
-import java.text.SimpleDateFormat;
-import java.sql.ResultSet;
-import java.sql.SQLException;
-import java.sql.Statement;
-import javax.swing.JFormattedTextField;
-import javax.swing.JTabbedPane;
-import javax.swing.JPanel;
-import javax.swing.JLabel;
-import java.awt.FlowLayout;
-import javax.swing.SwingConstants;
-import java.awt.BorderLayout;
-import javax.swing.BoxLayout;
-import java.awt.CardLayout;
-import java.awt.GridLayout;
-import javax.swing.JTextField;
-import javax.swing.JTable;
+import javax.swing.border.EmptyBorder;
 import javax.swing.table.DefaultTableModel;
 import javax.swing.text.MaskFormatter;
-import javax.swing.border.EmptyBorder;
-import javax.swing.JCheckBox;
+import java.awt.*;
+import java.awt.event.*;
+import java.sql.Statement;
 import java.util.ArrayList;
-import java.util.Date;
-import javax.swing.JButton;
-import java.awt.event.ActionListener;
-import java.awt.event.ActionEvent;
 public class Cadastro extends javax.swing.JFrame{
     
     DefaultListModel modelo = new DefaultListModel();
@@ -134,7 +103,7 @@ public class Cadastro extends javax.swing.JFrame{
             }
         });
 
-        jLabel1.setText("Código");
+        jLabel1.setText("Codigo");
 
         jLabel2.setText("Nome");
 
